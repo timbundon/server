@@ -3,7 +3,7 @@ import numpy as np
 import sounddevice as sd
 
 FS = 44100
-GLOBAL_GAIN = 4.0
+GLOBAL_GAIN = 1.0
 BASE_F0 = 120.0       # ниже — был 180.0
 HARMONICS = 10
 VOWEL_DUR = 0.26      # было 0.16 — медленнее
