@@ -1,6 +1,4 @@
 from flask import Flask, request, jsonify, Response
-from threading import Thread
-import time
 
 
 ip_to_id = {}
